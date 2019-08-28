@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* .menu ul {
+  background-color: #222;
+  margin: 0;
+}
+
+.menu li {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+} */
+ 
+.menu a {
+  float: left;
+  color: #1b0606;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
+/* .menu a:hover {
+  background-color: rgb(233, 30, 30);
+  color: black;
+} */
+
+.hoverMenu{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.menu li:active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.menu{
+  background-color: beige;
+  overflow: hidden;
+}
+
+.select{
+  margin-right: 90%;
+  margin-top:1%;
+}
