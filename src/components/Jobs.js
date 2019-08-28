@@ -25,7 +25,6 @@ class Jobs extends Component {
     return (
       <div>
         <div>
-          <span>Select:</span>
           <select className="select" onChange={e => this.onChange(e)}>
             <option value="python">Python</option>
             <option value="react">React</option>
